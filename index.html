@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hngx - Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Zuri<span style="color: red">.</span><span>Intership</span></h1>
+      <p>Break into the tech industry like a pro</p>
+    </header>
+    <main>
+      <div class="profile">
+        <img src="./images/IMG_1982 2.jpg" alt="Olumayokunayo" data-testid="slackDisplayImage" />
+        <div>
+          <h2 data-testid="slackUserName"></h2>
+          <p>
+            <a href="https://github.com/olumayokunayo" data-testid="githubURL"
+              >GitHub &rarr;</a
+            >
+          </p>                                                                                                                                                                                                                                                                                                                                                  
+        </div>
+      </div>
+      <div class="info">
+        <p>
+          <strong>Current Day:</strong>
+          <span data-testid="currentDayOfTheWeek"></span>
+        </p>
+        <p>
+          <strong>Current UTC Time (milliseconds):</strong>
+          <span data-testid="currentUTCTime"></span>
+        </p>
+        <p>
+          <strong>Track:</strong> <span data-testid="myTrack"></span>
+        </p>
+      </div>
+    </main>
+    <footer>
+      <p>
+        &copy; <span data-testid="copyDate"></span> All rights reserved.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
